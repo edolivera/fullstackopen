@@ -1,10 +1,11 @@
 import React from 'react'
 
 const Part2 = (props) => {
+
   return (
     <div>
         <p>
-            {props.part2} {props.exercises2}
+          {props.part2.name+" "+props.part2.exercises}
         </p>
     </div>
   )
