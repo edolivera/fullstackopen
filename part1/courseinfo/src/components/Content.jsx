@@ -7,9 +7,9 @@ const Content = (props) => {
 
   return (
     <div>
-      <Part1 part1={props.parts[0]}  />
-      <Part2 part2={props.parts[1]} />
-      <Part3 part3={props.parts[2]} />
+      <Part1 part1={props.parts.part1}  />
+      <Part2 part2={props.parts.part2} />
+      <Part3 part3={props.parts.part3} />
     </div>
   )
 }
